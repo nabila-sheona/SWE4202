@@ -32,7 +32,7 @@ namespace lab09
 
             string b = (textBox4.Text);
             int d = b.Length;
-            //string rep;
+            
 
             if (c >= 6 && d >= 6)
             {
@@ -60,11 +60,11 @@ namespace lab09
                     // string s = $"p: {userName} n:{pass}";
                     string s = textBox1.Text+ " " + textBox2.Text + " " + textBox4.Text;
 
-                    File.AppendAllText(path, name);
-                    File.AppendAllText(path, " ");
-                    File.AppendAllText(path, userName);
-                    File.AppendAllText(path, " ");
-                    File.AppendAllText(path, pass);
+                    File.AppendAllText(path, name+ " "+ userName + " " + pass);
+                    //File.AppendAllText(path, " ");
+                    //File.AppendAllText(path, userName);
+                    //File.AppendAllText(path, " ");
+                    //File.AppendAllText(path, pass);
                     File.AppendAllText(path, "\n");
                    
                     Form1 f1 = new Form1();

@@ -13,9 +13,12 @@ namespace lab09
 {
     public partial class Form1 : Form
     {
+        public static Form1 instance;
+        public string usern;
         public Form1()
         {
             InitializeComponent();
+            instance = this;
         }
 
         List<string> user = new List<string>();
@@ -24,6 +27,7 @@ namespace lab09
 
         private void button1_Click(object sender, EventArgs e)
         {
+            usern = textBox1.Text;
              if (user.Contains(textBox1.Text) && pass.Contains(textBox2.Text) && Array.IndexOf(user.ToArray(), textBox1.Text) == Array.IndexOf(pass.ToArray(), textBox2.Text))
             {
                 Form3 f3 = new Form3();
@@ -41,7 +45,7 @@ namespace lab09
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            StreamReader s1 = new StreamReader($@"C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\TextFile1.txt");
+            StreamReader s1 = new StreamReader(@"C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\TextFile1.txt");
             string line = "";
             while ((line = s1.ReadLine()) != null)
             {

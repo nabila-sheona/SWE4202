@@ -15,6 +15,8 @@ namespace lab09
         public Form3()
         {
             InitializeComponent();
+            label1.Text = "Welcome" + " " + Form1.instance.usern + "!";
+        
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -22,6 +24,16 @@ namespace lab09
             Form1 form = new Form1();
             form.Show();
             this.Hide();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
