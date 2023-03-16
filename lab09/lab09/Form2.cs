@@ -12,13 +12,17 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace lab09
 {
+
     public partial class Form2 : Form
     {
+        // string file = @"C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\TextFile1.txt";
         public Form2()
         {
             InitializeComponent();
         }
-        string rep;
+
+        List<string> user = new List<string>();
+
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -32,57 +36,76 @@ namespace lab09
 
             string b = (textBox4.Text);
             int d = b.Length;
-            
 
-            if (c >= 6 && d >= 6)
+
+            if (c >= 4 && d >= 6)
             {
                 string userName = textBox2.Text;
                 string name = textBox1.Text;
                 string pass = textBox4.Text;
                 string path = @"C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\TextFile1.txt";
-                string cat = path;
-               //if (File.Exists(path))
-              // {
-                // MessageBox.Show("Username not available!");
-                //}
-                //else
-                if (textBox4.Text != textBox3.Text)
+                bool use = true;
+                foreach (string u in user)
                 {
-                    MessageBox.Show("Password didn't Match!");
+                    if (u == userName)
+                    {
+                        MessageBox.Show("Username not available!");
+                        use= false;
+                        break;
+                    }
                 }
-                else
-                {
-                    
-                    MessageBox.Show("created!");
-                    //FileStream nFile = new FileStream(@"C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\TextFile1.txt", FileMode.Create);
+                if (use== true) {
+                    if (textBox4.Text != textBox3.Text)
+                    {
+                        MessageBox.Show("Password didn't Match!");
+                    }
+                    else
+                    {
 
-                    //StreamWriter s1 = new StreamWriter(nFile);
-                    // string s = $"p: {userName} n:{pass}";
-                    string s = textBox1.Text+ " " + textBox2.Text + " " + textBox4.Text;
+                        MessageBox.Show("created!");
 
-                    File.AppendAllText(path, name+ " "+ userName + " " + pass);
-                    //File.AppendAllText(path, " ");
-                    //File.AppendAllText(path, userName);
-                    //File.AppendAllText(path, " ");
-                    //File.AppendAllText(path, pass);
-                    File.AppendAllText(path, "\n");
-                   
-                    Form1 f1 = new Form1();
-                    f1.Show();
-                    this.Hide();
+                        string s = textBox1.Text + " " + textBox2.Text + " " + textBox4.Text;
+
+                        File.AppendAllText(path, name + " " + userName + " " + pass);
+
+                        File.AppendAllText(path, "\n");
+
+                        Form1 f1 = new Form1();
+                        f1.Show();
+                        this.Hide();
+
+                    }
                 }
             }
+        
+    
             else
             {
                 MessageBox.Show("minimum 6 characters");
             }
-        }
+            }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form1 form = new Form1();
             form.Show();
             this.Hide();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            StreamReader s1 = new StreamReader(@"C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\TextFile1.txt");
+            string line = "";
+            while ((line = s1.ReadLine()) != null)
+            {
+                string[] components = line.Split(" ".ToCharArray());
+
+                user.Add(components[1]);
+                
+            }
+
+            s1.Close();
         }
     }
 }

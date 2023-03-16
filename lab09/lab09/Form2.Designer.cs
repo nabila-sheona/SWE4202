@@ -43,9 +43,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(336, 274);
+            this.button1.Location = new System.Drawing.Point(368, 265);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 42);
+            this.button1.Size = new System.Drawing.Size(115, 42);
             this.button1.TabIndex = 11;
             this.button1.Text = "Sign Up";
             this.button1.UseVisualStyleBackColor = true;
@@ -53,7 +53,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(409, 115);
+            this.textBox2.Location = new System.Drawing.Point(419, 115);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 26);
             this.textBox2.TabIndex = 10;
@@ -86,14 +86,14 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(416, 199);
+            this.textBox3.Location = new System.Drawing.Point(419, 199);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 26);
             this.textBox3.TabIndex = 15;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(416, 158);
+            this.textBox4.Location = new System.Drawing.Point(419, 158);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 26);
             this.textBox4.TabIndex = 14;
@@ -157,6 +157,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
