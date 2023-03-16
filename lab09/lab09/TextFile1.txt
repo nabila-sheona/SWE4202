@@ -1,2 +1,0 @@
-q queens queens
-q queens queens
