@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,14 +18,40 @@ namespace lab09
             InitializeComponent();
         }
 
+        List<string> user = new List<string>();
+        List<string> pass = new List<string>();
+
+
         private void button1_Click(object sender, EventArgs e)
         {
+             if (user.Contains(textBox1.Text) && pass.Contains(textBox2.Text) && Array.IndexOf(user.ToArray(), textBox1.Text) == Array.IndexOf(pass.ToArray(), textBox2.Text))
+            {
+                Form3 f3 = new Form3();
+                f3.Show();
+                this.Hide();
+            }
 
+            else
+            {
+
+                MessageBox.Show("The username/password is incorrect");
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+            StreamReader s1 = new StreamReader("signin1.txt");
+            string line = "";
+            while ((line = s1.ReadLine()) != null)
+            {
+                string[] components = line.Split(" ".ToCharArray());
+
+                user.Add(components[5]);
+                pass.Add(components[6]);
+            }
+
+            s1.Close();
         }
 
         private void label1_Click(object sender, EventArgs e)
