@@ -41,14 +41,14 @@ namespace lab09
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            StreamReader s1 = new StreamReader("signin1.txt");
+            StreamReader s1 = new StreamReader($@"C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\TextFile1.txt");
             string line = "";
             while ((line = s1.ReadLine()) != null)
             {
                 string[] components = line.Split(" ".ToCharArray());
 
-                user.Add(components[5]);
-                pass.Add(components[6]);
+                user.Add(components[1]);
+                pass.Add(components[2]);
             }
 
             s1.Close();
