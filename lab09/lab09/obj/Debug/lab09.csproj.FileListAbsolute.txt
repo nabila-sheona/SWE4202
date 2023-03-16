@@ -1,0 +1,13 @@
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\bin\Debug\lab09.exe.config
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\bin\Debug\lab09.exe
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\bin\Debug\lab09.pdb
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\obj\Debug\lab09.csproj.AssemblyReference.cache
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\obj\Debug\lab09.csproj.SuggestedBindingRedirects.cache
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\obj\Debug\lab09.Form1.resources
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\obj\Debug\lab09.Form2.resources
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\obj\Debug\lab09.Form3.resources
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\obj\Debug\lab09.Properties.Resources.resources
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\obj\Debug\lab09.csproj.GenerateResource.cache
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\obj\Debug\lab09.csproj.CoreCompileInputs.cache
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\obj\Debug\lab09.exe
+C:\Users\nitol\source\repos\lab_tasks\lab09\lab09\obj\Debug\lab09.pdb
