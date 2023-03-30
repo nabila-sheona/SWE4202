@@ -7,3 +7,5 @@ qwerty zxcvbn 123456
 1 poiu 123456
 1 qwer 123456
 12 qwerty23 1234567
+ 123456 123456
+qwerty1 qwerty1 qwerty

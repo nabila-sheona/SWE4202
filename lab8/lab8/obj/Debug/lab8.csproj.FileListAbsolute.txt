@@ -1,0 +1,3 @@
+C:\Users\nitol\source\repos\lab8\lab8\obj\Debug\lab8.csproj.AssemblyReference.cache
+C:\Users\nitol\source\repos\lab8\lab8\obj\Debug\lab8.csproj.SuggestedBindingRedirects.cache
+C:\Users\nitol\source\repos\lab8\lab8\obj\Debug\lab8.csproj.CoreCompileInputs.cache
