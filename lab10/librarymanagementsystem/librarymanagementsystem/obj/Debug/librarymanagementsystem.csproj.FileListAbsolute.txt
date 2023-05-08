@@ -1,8 +1,0 @@
-D:\SWE4202\lab_tasks\lab10\librarymanagementsystem\librarymanagementsystem\obj\Debug\librarymanagementsystem.csproj.AssemblyReference.cache
-D:\SWE4202\lab_tasks\lab10\librarymanagementsystem\librarymanagementsystem\obj\Debug\librarymanagementsystem.csproj.SuggestedBindingRedirects.cache
-D:\SWE4202\lab_tasks\lab10\librarymanagementsystem\librarymanagementsystem\obj\Debug\librarymanagementsystem.csproj.CoreCompileInputs.cache
-D:\SWE4202\lab_tasks\lab10\librarymanagementsystem\librarymanagementsystem\bin\Debug\librarymanagementsystem.exe.config
-D:\SWE4202\lab_tasks\lab10\librarymanagementsystem\librarymanagementsystem\bin\Debug\librarymanagementsystem.exe
-D:\SWE4202\lab_tasks\lab10\librarymanagementsystem\librarymanagementsystem\bin\Debug\librarymanagementsystem.pdb
-D:\SWE4202\lab_tasks\lab10\librarymanagementsystem\librarymanagementsystem\obj\Debug\librarymanagementsystem.exe
-D:\SWE4202\lab_tasks\lab10\librarymanagementsystem\librarymanagementsystem\obj\Debug\librarymanagementsystem.pdb
