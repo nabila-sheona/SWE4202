@@ -1,0 +1,8 @@
+D:\SWE4202\lab_tasks\lab11A\lab11A\obj\Debug\lab11A.csproj.AssemblyReference.cache
+D:\SWE4202\lab_tasks\lab11A\lab11A\obj\Debug\lab11A.csproj.SuggestedBindingRedirects.cache
+D:\SWE4202\lab_tasks\lab11A\lab11A\obj\Debug\lab11A.csproj.CoreCompileInputs.cache
+D:\SWE4202\lab_tasks\lab11A\lab11A\bin\Debug\lab11A.exe.config
+D:\SWE4202\lab_tasks\lab11A\lab11A\bin\Debug\lab11A.exe
+D:\SWE4202\lab_tasks\lab11A\lab11A\bin\Debug\lab11A.pdb
+D:\SWE4202\lab_tasks\lab11A\lab11A\obj\Debug\lab11A.exe
+D:\SWE4202\lab_tasks\lab11A\lab11A\obj\Debug\lab11A.pdb
